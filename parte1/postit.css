@@ -20,18 +20,36 @@ h1 {
 section {
   height: 94.16vh;
 }
-.postIt {
+.postItS {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
-.postIt1 {
+.postIt {
   width: 320px;
   height: 220px;
-  background-color: burlywood;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 17px 18px 10px -11px rgba(0, 0, 0, 0.3);
+}
+.primo {
+  background-color: rgb(224, 214, 165);
+}
+.secondo {
+  background-color: rgb(168, 223, 178);
+}
+.terzo {
+  background-color: rgb(192, 172, 193);
+}
+.quarto {
+  background-color: rgb(168, 223, 178);
+}
+.quinto {
+  background-color: rgb(224, 214, 165);
+}
+.sesto {
+  background-color: rgb(192, 172, 193);
 }
