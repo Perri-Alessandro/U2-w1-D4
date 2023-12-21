@@ -34,20 +34,20 @@ p {
   color: rgb(97, 118, 137);
   font-weight: bold;
   opacity: 10;
-  animation: ;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-content: space-evenly;
   justify-content: space-evenly;
-  height: 100vh;
-  translate: 0 -200px;
+  height: 120vh;
+  translate: -20px 29px;
+  animation: muovili;
 }
 
-@keyframes animazione {
+/* @keyframes muovili {
   0 % {
-    opacity: 1;
+    translate: ;
   }
   100% {
     opacity: 0;
   }
-}
+} */
